@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-gray-900 antialiased;
+}
+
+.player-shadow {
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
