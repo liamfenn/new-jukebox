@@ -7,7 +7,7 @@ const spotify = new SpotifyWebApi();
 const CLIENT_ID = '1ccf16dbea164b57b82c7502cc3cbb9a';
 const REDIRECT_URIS = {
   development: 'http://localhost:3000',
-  production: 'YOUR_VERCEL_URL'
+  production: 'https://new-jukebox.vercel.app'
 };
 
 const REDIRECT_URI = process.env.NODE_ENV === 'production' 
